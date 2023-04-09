@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Topic_01_Setup_Environment">
+      <class name="webdriver.Test_Function_Selenium">
         <methods>
-          <include name="afterClass"/>
-          <include name="TC_01_Url"/>
+          <include name="TC_16_Remove_Product_From_Wishlist"/>
           <include name="beforeClass"/>
-          <include name="TC_02_Logo"/>
-          <include name="TC_03_Form"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- webdriver.Topic_01_Setup_Environment -->
+      </class> <!-- webdriver.Test_Function_Selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
