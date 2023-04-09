@@ -41,7 +41,7 @@ public class Test_Function_Selenium {
 
 	}
 
-/*	@Test
+	@Test
 	public void TC_01_Register_Empty_Data() {
 		driver.findElement(By.className("ico-register")).click();
 		// Action
@@ -74,7 +74,7 @@ public class Test_Function_Selenium {
 
 		Assert.assertEquals(driver.findElement(By.xpath("//li[text() ='Wrong email' ]")).getText(), "Wrong email");
 	}
-*/
+
 	@Test
 	public void TC_03_Register_Valid_Information() {
 		driver.findElement(By.className("ico-register")).click();
@@ -104,7 +104,7 @@ public class Test_Function_Selenium {
 		Assert.assertEquals(driver.findElement(By.className("result")).getText(), "Your registration completed");
 
 	}
-/*
+	
 	@Test
 	public void TC_04_Register_Email_Already_Exists() {
 		driver.findElement(By.className("ico-register")).click();
@@ -262,7 +262,7 @@ public class Test_Function_Selenium {
 		Assert.assertEquals(driver.findElement(By.xpath("//div[contains(text(), 'Login was unsuccessful')]")).getText(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
 
 	}
-*/
+	
 	@Test
 	public void TC_12_Login_Email_Registered_Correct_Password() {
 		driver.findElement(By.className("ico-login")).click();

@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-09T07:17:09Z" name="Default suite" finished-at="2023-04-09T07:18:11Z" duration-ms="62047">
+  <suite started-at="2023-04-09T17:06:55Z" name="Default suite" finished-at="2023-04-09T17:08:10Z" duration-ms="75474">
     <groups>
     </groups>
-    <test started-at="2023-04-09T07:17:09Z" name="Default test" finished-at="2023-04-09T07:18:11Z" duration-ms="62047">
+    <test started-at="2023-04-09T17:06:55Z" name="Default test" finished-at="2023-04-09T17:08:10Z" duration-ms="75474">
       <class name="webdriver.Test_Function_Selenium">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:09Z" name="beforeClass" finished-at="2023-04-09T07:17:15Z" duration-ms="5632" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:06:55Z" name="beforeClass" finished-at="2023-04-09T17:06:58Z" duration-ms="3428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Register_Empty_Data()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:15Z" name="TC_01_Register_Empty_Data" finished-at="2023-04-09T07:17:16Z" duration-ms="1303" status="PASS">
+        <test-method signature="TC_01_Register_Empty_Data()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:06:58Z" name="TC_01_Register_Empty_Data" finished-at="2023-04-09T17:06:59Z" duration-ms="1150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Register_Empty_Data -->
-        <test-method signature="TC_02_Register_Invalid_Email()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:16Z" name="TC_02_Register_Invalid_Email" finished-at="2023-04-09T07:17:17Z" duration-ms="1317" status="PASS">
+        <test-method signature="TC_02_Register_Invalid_Email()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:06:59Z" name="TC_02_Register_Invalid_Email" finished-at="2023-04-09T17:07:02Z" duration-ms="3067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Register_Invalid_Email -->
-        <test-method signature="TC_03_Register_Valid_Information()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:17Z" name="TC_03_Register_Valid_Information" finished-at="2023-04-09T07:17:20Z" duration-ms="2998" status="PASS">
+        <test-method signature="TC_03_Register_Valid_Information()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:02Z" name="TC_03_Register_Valid_Information" finished-at="2023-04-09T17:07:09Z" duration-ms="6333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Register_Valid_Information -->
-        <test-method signature="TC_04_Register_Email_Already_Exists()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:20Z" name="TC_04_Register_Email_Already_Exists" finished-at="2023-04-09T07:17:23Z" duration-ms="2636" status="PASS">
+        <test-method signature="TC_04_Register_Email_Already_Exists()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:09Z" name="TC_04_Register_Email_Already_Exists" finished-at="2023-04-09T17:07:13Z" duration-ms="3924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04_Register_Email_Already_Exists -->
-        <test-method signature="TC_05_Register_Password_Less_Than_6_Chars()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:23Z" name="TC_05_Register_Password_Less_Than_6_Chars" finished-at="2023-04-09T07:17:26Z" duration-ms="2433" status="PASS">
+        <test-method signature="TC_05_Register_Password_Less_Than_6_Chars()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:13Z" name="TC_05_Register_Password_Less_Than_6_Chars" finished-at="2023-04-09T17:07:18Z" duration-ms="5466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_05_Register_Password_Less_Than_6_Chars -->
-        <test-method signature="TC_06_Register_Incorrect_Confirm_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:26Z" name="TC_06_Register_Incorrect_Confirm_Password" finished-at="2023-04-09T07:17:28Z" duration-ms="2527" status="PASS">
+        <test-method signature="TC_06_Register_Incorrect_Confirm_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:18Z" name="TC_06_Register_Incorrect_Confirm_Password" finished-at="2023-04-09T17:07:24Z" duration-ms="6068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_06_Register_Incorrect_Confirm_Password -->
-        <test-method signature="TC_07_Login_Empty_Data()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:28Z" name="TC_07_Login_Empty_Data" finished-at="2023-04-09T07:17:29Z" duration-ms="556" status="PASS">
+        <test-method signature="TC_07_Login_Empty_Data()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:24Z" name="TC_07_Login_Empty_Data" finished-at="2023-04-09T17:07:25Z" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_07_Login_Empty_Data -->
-        <test-method signature="TC_08_Login_Invalid_Email()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:29Z" name="TC_08_Login_Invalid_Email" finished-at="2023-04-09T07:17:29Z" duration-ms="586" status="PASS">
+        <test-method signature="TC_08_Login_Invalid_Email()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:25Z" name="TC_08_Login_Invalid_Email" finished-at="2023-04-09T17:07:26Z" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_08_Login_Invalid_Email -->
-        <test-method signature="TC_09_Login_Email_Unregistered()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:29Z" name="TC_09_Login_Email_Unregistered" finished-at="2023-04-09T07:17:30Z" duration-ms="891" status="PASS">
+        <test-method signature="TC_09_Login_Email_Unregistered()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:26Z" name="TC_09_Login_Email_Unregistered" finished-at="2023-04-09T17:07:27Z" duration-ms="1552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_09_Login_Email_Unregistered -->
-        <test-method signature="TC_10_Login_Email_Registered_Empty_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:30Z" name="TC_10_Login_Email_Registered_Empty_Password" finished-at="2023-04-09T07:17:31Z" duration-ms="923" status="PASS">
+        <test-method signature="TC_10_Login_Email_Registered_Empty_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:27Z" name="TC_10_Login_Email_Registered_Empty_Password" finished-at="2023-04-09T17:07:29Z" duration-ms="1735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_10_Login_Email_Registered_Empty_Password -->
-        <test-method signature="TC_11_Login_Email_Registered_Incorrect_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:31Z" name="TC_11_Login_Email_Registered_Incorrect_Password" finished-at="2023-04-09T07:17:32Z" duration-ms="967" status="PASS">
+        <test-method signature="TC_11_Login_Email_Registered_Incorrect_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:29Z" name="TC_11_Login_Email_Registered_Incorrect_Password" finished-at="2023-04-09T17:07:31Z" duration-ms="1503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_11_Login_Email_Registered_Incorrect_Password -->
-        <test-method signature="TC_12_Login_Email_Registered_Correct_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:32Z" name="TC_12_Login_Email_Registered_Correct_Password" finished-at="2023-04-09T07:17:33Z" duration-ms="1284" status="PASS">
+        <test-method signature="TC_12_Login_Email_Registered_Correct_Password()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:31Z" name="TC_12_Login_Email_Registered_Correct_Password" finished-at="2023-04-09T17:07:32Z" duration-ms="1801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_12_Login_Email_Registered_Correct_Password -->
-        <test-method signature="TC_13_Wishlist_Empty_Data()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:33Z" name="TC_13_Wishlist_Empty_Data" finished-at="2023-04-09T07:17:34Z" duration-ms="410" status="PASS">
+        <test-method signature="TC_13_Wishlist_Empty_Data()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:32Z" name="TC_13_Wishlist_Empty_Data" finished-at="2023-04-09T17:07:33Z" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_13_Wishlist_Empty_Data -->
-        <test-method signature="TC_14_Add_Product_To_Wishlist()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:34Z" name="TC_14_Add_Product_To_Wishlist" finished-at="2023-04-09T07:17:39Z" duration-ms="5589" status="PASS">
+        <test-method signature="TC_14_Add_Product_To_Wishlist()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:33Z" name="TC_14_Add_Product_To_Wishlist" finished-at="2023-04-09T17:07:37Z" duration-ms="4182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_14_Add_Product_To_Wishlist -->
-        <test-method signature="TC_15_Add_Product_Form_Wishlist_To_Cart()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:39Z" name="TC_15_Add_Product_Form_Wishlist_To_Cart" finished-at="2023-04-09T07:17:41Z" duration-ms="1464" status="PASS">
+        <test-method signature="TC_15_Add_Product_Form_Wishlist_To_Cart()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:37Z" name="TC_15_Add_Product_Form_Wishlist_To_Cart" finished-at="2023-04-09T17:07:39Z" duration-ms="2085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_15_Add_Product_Form_Wishlist_To_Cart -->
-        <test-method signature="TC_16_Remove_Product_From_Wishlist()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:17:41Z" name="TC_16_Remove_Product_From_Wishlist" finished-at="2023-04-09T07:18:11Z" duration-ms="30484" status="FAIL">
+        <test-method signature="TC_16_Remove_Product_From_Wishlist()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:07:39Z" name="TC_16_Remove_Product_From_Wishlist" finished-at="2023-04-09T17:08:10Z" duration-ms="30671" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -79,8 +79,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-AEABJVP', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c2cb32357e7260914afafb81303a9d46]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51565}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58f6a977fd17efc4953860c180224b01]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -88,8 +88,8 @@ Session ID: c2cb32357e7260914afafb81303a9d46]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-AEABJVP', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c2cb32357e7260914afafb81303a9d46
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51565}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58f6a977fd17efc4953860c180224b01
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,7 +102,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at webdriver.Test_Function_Selenium.TC_16_Remove_Product_From_Wishlist(Test_Function_Selenium.java:326)
+at webdriver.Test_Function_Selenium.TC_16_Remove_Product_From_Wishlist(Test_Function_Selenium.java:322)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -134,27 +134,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_16_Remove_Product_From_Wishlist -->
-        <test-method signature="TC_17_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:18:11Z" name="TC_17_" finished-at="2023-04-09T07:18:11Z" duration-ms="2" status="PASS">
+        <test-method signature="TC_17_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:08:10Z" name="TC_17_" finished-at="2023-04-09T17:08:10Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_17_ -->
-        <test-method signature="TC_18_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:18:11Z" name="TC_18_" finished-at="2023-04-09T07:18:11Z" duration-ms="1" status="PASS">
+        <test-method signature="TC_18_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:08:10Z" name="TC_18_" finished-at="2023-04-09T17:08:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_18_ -->
-        <test-method signature="TC_19_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:18:11Z" name="TC_19_" finished-at="2023-04-09T07:18:11Z" duration-ms="1" status="PASS">
+        <test-method signature="TC_19_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:08:10Z" name="TC_19_" finished-at="2023-04-09T17:08:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_19_ -->
-        <test-method signature="TC_20_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:18:11Z" name="TC_20_" finished-at="2023-04-09T07:18:11Z" duration-ms="0" status="PASS">
+        <test-method signature="TC_20_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:08:10Z" name="TC_20_" finished-at="2023-04-09T17:08:10Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_20_ -->
-        <test-method signature="TC_21_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:18:11Z" name="TC_21_" finished-at="2023-04-09T07:18:11Z" duration-ms="0" status="PASS">
+        <test-method signature="TC_21_()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:08:10Z" name="TC_21_" finished-at="2023-04-09T17:08:10Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_21_ -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T07:18:11Z" name="afterClass" finished-at="2023-04-09T07:18:11Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Test_Function_Selenium@ba2f4ec]" started-at="2023-04-09T17:08:10Z" name="afterClass" finished-at="2023-04-09T17:08:10Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
