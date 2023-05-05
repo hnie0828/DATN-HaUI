@@ -3,13 +3,27 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webdriver.Test_Function_Selenium">
+      <class name="NguyenThiHien_2019606119.Test_Function_nopCommerce">
         <methods>
-          <include name="TC_16_Remove_Product_From_Wishlist"/>
           <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="TC_07_Login_Empty_Data"/>
+          <include name="TC_10_Login_Email_Registered_Empty_Password"/>
+          <include name="TC_12_Login_Email_Registered_Correct_Password"/>
+          <include name="TC_21_Order_Payment_Method_By_Card"/>
+          <include name="TC_11_Login_Email_Registered_Incorrect_Password"/>
+          <include name="TC_08_Login_Invalid_Email"/>
+          <include name="TC_13_Wishlist_Empty_Data"/>
+          <include name="TC_14_Add_Product_To_Wishlist"/>
+          <include name="TC_20_Order_Payment_Method_By_Cheque"/>
+          <include name="TC_16_Remove_Product_From_Wishlist"/>
+          <include name="TC_18_Update_Shopping_Cart"/>
+          <include name="TC_17_Add_Product_To_Cart"/>
+          <include name="TC_15_Add_Product_Form_Wishlist_To_Cart"/>
+          <include name="TC_09_Login_Email_Unregistered"/>
+          <include name="TC_19_Remove_From_Cart"/>
         </methods>
-      </class> <!-- webdriver.Test_Function_Selenium -->
+      </class> <!-- NguyenThiHien_2019606119.Test_Function_nopCommerce -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
